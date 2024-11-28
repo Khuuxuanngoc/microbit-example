@@ -7,5 +7,5 @@ basic.forever(function () {
     // Rồi cho hiển thị giá trị đó trên LCD sau tiêu đề "Khoảng cách"
     lcd.displayText("" + ultraSonic.readDistance(ultraSonic.PingUnit.Centimeters, ultraSonic.PinKit.Port1) + " cm   ", 7, 1)
     // Dừng 0.5s
-    basic.pause(2500)
+    basic.pause(300)
 })
